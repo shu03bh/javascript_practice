@@ -1,0 +1,25 @@
+//js is synchonous langugae- one task executed at one time
+//it is single threaded - it can only execute one task at a time, it has a call stack where it keeps track of the function calls, when a function is called, it is added to the call stack, when the function is executed and returns a value, it is removed from the call stack
+
+
+//async  in js is used to handle asynchronous operations, it allows us to write code that can run in the background without blocking the main thread, it is used to handle operations that take time to complete, such as fetching data from an API, reading a file, etc.
+
+//async functions - it is a function that returns a promise, it is used to handle asynchronous operations, it allows us to write code that can run in the background without blocking the main thread, it is used to handle operations that take time to complete, such as fetching data from an API, reading a file, etc.
+
+//async function syntax
+// async function functionName(parameters) {
+//     //code to be executed
+// }
+
+//blocking code - it is a code that takes time to execute and blocks the main thread, it can cause the UI to freeze and become unresponsive, it is not recommended to use blocking code in js, example - to read a file from the file system, to fetch data from an API, etc.
+
+//non-blocking code - it is a code that does not block the main thread, it allows the UI to remain responsive, it is recommended to use non-blocking code in js, example - to read a file from the file system, to fetch data from an API, (when read asynchronously)
+
+//eg- user data registered- give notification to them, but we need to write blocking code to send the notification, it wil send teh notification once the user logs in successfully, otherwise wait, We don't want to send notofcation without login(so, we don't use non-blocking code here, we use blocking code to send notification after login)
+
+//eg- we want to fetch data from an API and display it on the UI, we can use non-blocking code to fetch the data from the API, so that the UI remains responsive while the data is being fetched, once the data is fetched, we can display it on the UI
+
+//web api/ node - it is a set of APIs that are provided by the browser or node environment to handle asynchronous operations, it allows us to write code that can run in the background without blocking the main thread, it is used to handle operations that take time to complete, such as fetching data from an API, reading a file, etc.
+
+//promise queue/high priority queue - used to manage the execution of promises in a specific order, ensuring that certain operations are completed before others, this helps in handling complex asynchronous workflows and maintaining the desired flow of execution.
+
