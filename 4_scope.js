@@ -49,14 +49,14 @@ if (true){
 //console.log(username); - error coz declared outside of 1st i scope
 
 // +++++++++interesting+++++++++
-addone(5)
+addone(5) //doesn't give error
 function addone(num){
     return num+1
 }
 console.log(addone(5))
 
 //expresssion
-//addtwo(5) - error based on declaration
+//addtwo(5) - error based on declaration, coz funtion is stored in a variable
 const addtwo = function(num){
     return num+2
 }

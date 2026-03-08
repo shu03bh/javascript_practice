@@ -87,5 +87,9 @@ console.log("num1+num2 is : ", addtshort(5,6));
 //if we use () it will also return the value by default, but we can write multiple lines of code inside () and it will return the value of the last line of code
 
 //to return an object
-const addnum= (num1, num2) => {username: "Shubh", price: 999}
+const addnum= (num1, num2) => ({username: "Shubh", price: 999})
 console.log(addnum);
+
+const myArray = [1,2,3,4,5,6,7,8,9,10]
+
+//myArray.forEach(() => ())

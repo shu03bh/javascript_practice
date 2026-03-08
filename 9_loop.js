@@ -32,18 +32,4 @@ do {
     k++;
 } while (k < arr.length);
 
-// For...of loop
-console.log('\nFor...of loop:');
-for (const value of arr) {
-    console.log(value);
-}
-
-// For...in loop (for object properties)
-console.log('\nFor...in loop:');
-const obj = { a: 1, b: 2, c: 3 };
-for (const key in obj) {
-    if (Object.hasOwnProperty.call(obj, key)) {
-        console.log(key, obj[key]);
-    }
-}
 

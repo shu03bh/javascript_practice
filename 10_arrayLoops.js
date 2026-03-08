@@ -102,7 +102,7 @@ const mycoding = [
     }
 ]
 
-mycoding[0].forEach((item)=>{
+mycoding.forEach((item)=>{
     console.log(item.language);
     
 })

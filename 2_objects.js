@@ -131,4 +131,11 @@ const navbar = ({company}) => {
 navbar(company = "hitesh")
 
 
-//APIs
+//APIs - values from backend(JSON format), keys are also in string format
+// {   "name" : "shubh",  
+//     "coursename" : "js",
+//     "price" : "free"
+// }
+
+
+
